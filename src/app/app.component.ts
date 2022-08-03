@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'project1';
 
   turn: boolean = true;
+  fromParent: string = 'This is hi from parent';
 
   myFunction() {
     let x = document.getElementById('Heading')!;
